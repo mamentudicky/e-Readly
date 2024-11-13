@@ -3,5 +3,5 @@
 - Mamentu, Dicky mendellson
 - Gara, Gilbert
 - Puiya,Delon Bart Cliver
-- 
+- Najoan, Nain King Roberto
  -
