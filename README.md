@@ -4,4 +4,4 @@
 - Gara, Gilbert
 - Puiya,Delon Bart Cliver
 - Najoan, Nain King Roberto
-  - Mnahonin, Wedell Runesi
+- Mnahonin, Wendell Runesi
