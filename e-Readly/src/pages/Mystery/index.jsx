@@ -52,10 +52,7 @@ const Mystery = () => {
           <div className="movies_main">
             <div className="iamge_movies_main">
               {getBook("mystery")}
-              {getBook("mystery")}
-              {getBook("mystery")}
-              {getBook("mystery")}
-              {getBook("mystery")}
+              
             </div>
           </div>
         </div>

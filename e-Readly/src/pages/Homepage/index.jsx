@@ -34,7 +34,7 @@ const HomePage = () => {
   <div className="movies_section layout_padding">
     <div className="container">
       <Fade bottom>
-      <img src="images/eReadElite.jpg" style={{display: 'block', margin: '0 auto', width: '200px', marginBottom: '100px'}} />
+      <img src="images/e-Readly.PNG" style={{display: 'block', margin: '0 auto', width: '200px', marginBottom: '100px'}} />
         
       </Fade>
       <Fade bottom delay={500}>
@@ -47,10 +47,6 @@ const HomePage = () => {
         <div className="seemore_bt"><a href="/mystery">See More</a></div>
         <div className="movies_main">
           <div className="iamge_movies_main">
-            {getBook("mystery")}
-            {getBook("mystery")}
-            {getBook("mystery")}
-            {getBook("mystery")}
             {getBook("mystery")}
           </div>
         </div>

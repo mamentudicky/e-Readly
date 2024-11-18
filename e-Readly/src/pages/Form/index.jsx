@@ -11,7 +11,7 @@ const Form = () => {
               <input type="text" id="name" name="name" style={{ color: 'black', border: '1px solid black', backgroundColor: 'transparent'}} /><br /><br />
 
               <label htmlFor="bookTitle">Book Title:</label><br />
-              <input type="text" id="bookTitle" name="bookTitle" style={{ color: 'black', border: '1px solid black', backgroundColor: 'transparent' }} /><br /><br />
+              <input type="text" id="bookTitle" name="bookTitle" style={{ color: 'black', border: '1px solid white', backgroundColor: 'transparent' }} /><br /><br />
 
               <label htmlFor="bookTitle">Synopsis:</label><br />
               <textarea name="" id="" cols="50" rows="10" style={{display: 'block', color: 'black', margin: '0 auto', backgroundColor: 'transparent'}}></textarea>
