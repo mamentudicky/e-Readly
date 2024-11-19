@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Import Link dari react-router-dom
 
 const Header = (props) => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -25,9 +26,9 @@ const Header = (props) => {
       <div className="header_section">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           {/* Logo */}
-          <a className="logo" href="/">
+          <Link className="logo" to="/"> {/* Gunakan Link dengan atribut 'to' */}
             <img src="/images/e-Readly.PNG" alt="e-Readly Logo" />
-          </a>
+          </Link>
 
           {/* Burger Menu Button */}
           <button
@@ -46,24 +47,24 @@ const Header = (props) => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <a className="nav-link" href="/home">
+                <Link className="nav-link" to="/home">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/catalog">
+                <Link className="nav-link" to="/catalog">
                   Catalog
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/discussion">
+                <Link className="nav-link" to="/discussion">
                   Discussion
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/publish">
+                <Link className="nav-link" to="/publish">
                   Publish
-                </a>
+                </Link>
               </li>
             </ul>
 

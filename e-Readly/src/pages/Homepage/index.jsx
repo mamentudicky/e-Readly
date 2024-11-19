@@ -57,10 +57,6 @@ const HomePage = () => {
         <div className="movies_main">
           <div className="iamge_movies_main">
             {getBook("sci-fi")}
-            {getBook("sci-fi")}
-            {getBook("sci-fi")}
-            {getBook("sci-fi")}
-            {getBook("sci-fi")}
           </div>
         </div>
       </div>
@@ -69,10 +65,6 @@ const HomePage = () => {
         <div className="seemore_bt"><a href="/romance">See More</a></div>
         <div className="movies_main">
           <div className="iamge_movies_main">
-            {getBook("romance")}
-            {getBook("romance")}
-            {getBook("romance")}
-            {getBook("romance")}
             {getBook("romance")}
           </div>
         </div>
@@ -83,10 +75,6 @@ const HomePage = () => {
         <div className="movies_main">
           <div className="iamge_movies_main">
             {getBook("educational")}
-            {getBook("educational")}
-            {getBook("educational")}
-            {getBook("educational")}
-            {getBook("educational")}
           </div>
         </div>
       </div>
@@ -95,10 +83,6 @@ const HomePage = () => {
         <div className="seemore_bt"><a href="/theology">See More</a></div>
         <div className="movies_main">
           <div className="iamge_movies_main">
-            {getBook("theology")}
-            {getBook("theology")}
-            {getBook("theology")}
-            {getBook("theology")}
             {getBook("theology")}
           </div>
         </div>

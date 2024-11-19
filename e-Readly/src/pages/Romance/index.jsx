@@ -53,10 +53,6 @@ const Romance = () => {
         <div className="movies_main">
           <div className="iamge_movies_main">
             {getBook("romance")}
-            {getBook("romance")}
-            {getBook("romance")}
-            {getBook("romance")}
-            {getBook("romance")}
           </div>
         </div>
       </div>

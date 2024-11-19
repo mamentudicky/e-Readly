@@ -78,24 +78,7 @@ const Mystery = () => {
         <div className="container">
           <div className="footer_menu">
             <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/movies">Movies</Link>
-              </li>
-              <li>
-                <Link to="/tv">TV</Link>
-              </li>
-              <li>
-                <Link to="/celebs">Celebs</Link>
-              </li>
-              <li>
-                <Link to="/sports">Sports</Link>
-              </li>
-              <li>
-                <Link to="/news">News</Link>
-              </li>
+              
             </ul>
           </div>
           <div className="social_icon">
