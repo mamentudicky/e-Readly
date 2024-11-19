@@ -26,7 +26,7 @@ const Header = (props) => {
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           {/* Logo */}
           <a className="logo" href="/">
-            <img src="/images/e-Readly.jpg" alt="e-Readly Logo" />
+            <img src="/images/e-Readly.PNG" alt="e-Readly Logo" />
           </a>
 
           {/* Burger Menu Button */}
@@ -46,7 +46,7 @@ const Header = (props) => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="/home">
                   Home
                 </a>
               </li>

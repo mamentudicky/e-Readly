@@ -990,16 +990,6 @@ h1 {
 }
 
 /* Search Box styles */
-.search-box {
-  border: solid 1px #3c0e0e;
-  margin-top: 20px;
-  padding: 20px; /* Adjusted padding */
-  display: flex;
-  justify-content: space-between; /* Changed to space-between */
-  align-items: center; /* Align items in the center */
-  box-shadow: 1px 2px 3px #4a1313;
-  background-color: #1a1a1a; /* Changed background color */
-}
 
 .search-box select {
   padding: 10px;

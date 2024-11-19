@@ -2,7 +2,7 @@ import Header from "../../components/Header"
 import { useEffect, useState } from "react";
 import Movie from "../../components/Movie"
 import { getDatabase, ref, onValue} from "firebase/database";
-import Fade from 'react-reveal/Fade'
+
 
 
 const Educational = () => {
