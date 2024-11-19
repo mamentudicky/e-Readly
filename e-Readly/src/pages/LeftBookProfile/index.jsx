@@ -8,7 +8,7 @@ const LeftBookProfile = (props) => {
       </div>
 
       <div>
-        <button className="bottomBook">buy $</button>
+        <button className="bottomBook">buy $23</button>
       </div>
 
       <StarRating />
