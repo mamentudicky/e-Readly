@@ -60,12 +60,7 @@ const Header = (props) => {
           </ul>
 
           {/* Search Icon */}
-          <div className="search_icon">
-            <a href="#">
-              <img src="/images/search-icon.png" alt="Search Icon" />
-              <span className="padding_left_15">Search...</span>
-            </a>
-          </div>
+          
         </div>
       </nav>
     </div>
