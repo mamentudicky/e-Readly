@@ -2,6 +2,8 @@ import Header from "../../components/Header"
 import { useEffect, useState } from "react";
 import Movie from "../../components/Movie"
 import { getDatabase, ref, onValue} from "firebase/database";
+import Fade from 'react-reveal/Fade'
+
 const SciFi = () => {
   const [movie, setMovie] = useState([]);
 
@@ -50,6 +52,10 @@ const SciFi = () => {
         <h2 className="letest_text">Science Fiction</h2>
         <div className="movies_main">
           <div className="iamge_movies_main">
+            {getBook("sci-fi")}
+            {getBook("sci-fi")}
+            {getBook("sci-fi")}
+            {getBook("sci-fi")}
             {getBook("sci-fi")}
           </div>
         </div>

@@ -27,7 +27,7 @@ function App() {
     <>
       <Router>
           <Routes>
-            <Route exact path="/home" element={<HomePage />} />
+            <Route exact path="/" element={<HomePage />} />
             <Route exact path="/publish" element={<Publish />} />
             <Route exact path="/publish/form" element={<Form />} />
             <Route exact path="/catalog" element={<Catalog />} />

@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 
 const StarRating = (props) => {
   useEffect(() => {
-    const Allstars = document.querySelectorAll('.Star'); // Gunakan ".Star" karena kelasnya adalah "Star" bukan "star"
+    const Allstars = document.querySelectorAll(".Star"); // Gunakan ".Star" karena kelasnya adalah "Star" bukan "star"
 
     Allstars.forEach((star, i) => {
       star.onclick = function () {
@@ -10,9 +10,9 @@ const StarRating = (props) => {
 
         Allstars.forEach((star, j) => {
           if (current_star_level >= j + 1) {
-            star.innerHTML = '★'; // Menggunakan karakter bintang solid
+            star.innerHTML = "★"; // Menggunakan karakter bintang solid
           } else {
-            star.innerHTML = '☆'; // Menggunakan karakter bintang kosong
+            star.innerHTML = "☆"; // Menggunakan karakter bintang kosong
           }
         });
       };

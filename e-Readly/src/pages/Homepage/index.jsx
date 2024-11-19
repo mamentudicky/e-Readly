@@ -3,7 +3,7 @@ import Header from "../../components/Header"
 import { useEffect, useState } from "react";
 import Movie from "../../components/Movie"
 import { getDatabase, ref, onValue} from "firebase/database";
-import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal/Fade'
 
 const HomePage = () => {
   const [movie, setMovie] = useState([]);
@@ -34,11 +34,11 @@ const HomePage = () => {
   <div className="movies_section layout_padding">
     <div className="container">
       <Fade bottom>
-      <img src="images/e-Readly.PNG" style={{display: 'block', margin: '0 auto', width: '200px', marginBottom: '100px'}} />
+      <img src="images/../../../../public/images/e-Readly.png" style={{display: 'block', margin: '0 auto', width: '200px', marginBottom: '100px'}} />
         
       </Fade>
       <Fade bottom delay={500}>
-      <h2 className="subtitle">Recommendations</h2>
+      <h2 className="subtitle">Recommendations Book</h2>
 
       </Fade>
       <Fade bottom delay={1000}> 
@@ -47,6 +47,10 @@ const HomePage = () => {
         <div className="seemore_bt"><a href="/mystery">See More</a></div>
         <div className="movies_main">
           <div className="iamge_movies_main">
+            {getBook("mystery")}
+            {getBook("mystery")}
+            {getBook("mystery")}
+            {getBook("mystery")}
             {getBook("mystery")}
           </div>
         </div>
@@ -57,6 +61,10 @@ const HomePage = () => {
         <div className="movies_main">
           <div className="iamge_movies_main">
             {getBook("sci-fi")}
+            {getBook("sci-fi")}
+            {getBook("sci-fi")}
+            {getBook("sci-fi")}
+            {getBook("sci-fi")}
           </div>
         </div>
       </div>
@@ -65,6 +73,10 @@ const HomePage = () => {
         <div className="seemore_bt"><a href="/romance">See More</a></div>
         <div className="movies_main">
           <div className="iamge_movies_main">
+            {getBook("romance")}
+            {getBook("romance")}
+            {getBook("romance")}
+            {getBook("romance")}
             {getBook("romance")}
           </div>
         </div>
@@ -75,6 +87,10 @@ const HomePage = () => {
         <div className="movies_main">
           <div className="iamge_movies_main">
             {getBook("educational")}
+            {getBook("educational")}
+            {getBook("educational")}
+            {getBook("educational")}
+            {getBook("educational")}
           </div>
         </div>
       </div>
@@ -83,6 +99,10 @@ const HomePage = () => {
         <div className="seemore_bt"><a href="/theology">See More</a></div>
         <div className="movies_main">
           <div className="iamge_movies_main">
+            {getBook("theology")}
+            {getBook("theology")}
+            {getBook("theology")}
+            {getBook("theology")}
             {getBook("theology")}
           </div>
         </div>
@@ -100,7 +120,7 @@ const HomePage = () => {
       <div className="row">
         <div className="col-md-6">
           <div className="image_17">
-            <div className="image_17"><img src="images/eReadElite.jpg" style={{display: 'block', marginLeft: '450px'}}/></div>
+            <div className="image_17"><img src="images/../../../../public/images/e-Readly.jpg" style={{display: 'block', marginLeft: '450px'}}/></div>
           </div>
         </div>
         

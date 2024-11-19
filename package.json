@@ -1,0 +1,11 @@
+{
+  "name": "e-readly",
+  "version": "1.0.0",
+  "description": "- Mamentu, Dicky mendellson\r - Gara, Gilbert\r - Puiya,Delon Bart Cliver\r - Najoan, Nain King Roberto\r - Mnahonin, Wendell Runesi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
