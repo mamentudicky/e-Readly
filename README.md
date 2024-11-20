@@ -1,13 +1,8 @@
-# e-Readly
+# React + Vite
 
-## Group members:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-- Mamentu, Dicky mendellson
-- Gara, Gilbert
-- Puiya,Delon Bart Cliver
-- Najoan, Nain King Roberto
-- Mnahonin, Wendell Runesi
+Currently, two official plugins are available:
 
-
-## firebase 
-[projectakhir-fa169-default-rtdb-export (2).json](https://github.com/user-attachments/files/17811862/projectakhir-fa169-default-rtdb-export.2.json)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
