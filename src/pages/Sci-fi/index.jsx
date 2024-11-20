@@ -53,10 +53,6 @@ const SciFi = () => {
         <div className="movies_main">
           <div className="iamge_movies_main">
             {getBook("sci-fi")}
-            {getBook("sci-fi")}
-            {getBook("sci-fi")}
-            {getBook("sci-fi")}
-            {getBook("sci-fi")}
           </div>
         </div>
       </div>
