@@ -54,10 +54,6 @@ const Educational = () => {
         <div className="movies_main">
           <div className="iamge_movies_main">
             {getBook("educational")}
-            {getBook("educational")}
-            {getBook("educational")}
-            {getBook("educational")}
-            {getBook("educational")}
           </div>
         </div>
       </div>

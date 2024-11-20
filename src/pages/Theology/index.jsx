@@ -53,14 +53,10 @@ const Theology = () => {
         <div className="movies_main">
           <div className="iamge_movies_main">
             {getBook("theology")}
-            {getBook("theology")}
-            {getBook("theology")}
-            {getBook("theology")}
-            {getBook("theology")}
           </div>
         </div>
       </div>
-
+      
       </Fade>
     </div>
   </div>

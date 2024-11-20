@@ -13,7 +13,7 @@ const Publish = () => {
               <div className="col-md-6" >
                 <h1 className="number_text">New!</h1>
                 <h1 className="Cooming_soon_taital" style={{width: '500px'}}>Want to publish your own book?</h1>
-                <p className="long_text_1">Try now and publish your book here for free.</p>
+                <p className="long_text_1">give youre new recomendation book.</p>
                 <div className="paly_bt">
                   <a href="/publish/form">Click here!</a>
                 </div>
