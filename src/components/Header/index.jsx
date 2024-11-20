@@ -45,11 +45,6 @@ const Header = (props) => {
                 Catalog
               </a>
             </li>
-            <li className={`nav-item ${props.discussion}`}>
-              <a className="nav-link" href="/discussion">
-                Discussion
-              </a>
-            </li>
             <li className={`nav-item ${props.publish}`}>
               <a className="nav-link" href="/publish">
                 Publish
