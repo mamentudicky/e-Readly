@@ -1,12 +1,12 @@
-// Import the functions you need from the SDKs you need
+// Import Firebase SDK yang diperlukan
 import { initializeApp } from "firebase/app";
-import { getDatabase, ref, get, set } from "firebase/database"; // Import untuk Realtime Database
+import { getDatabase, ref, set, get } from "firebase/database"; // Import untuk Realtime Database
 
-// Your web app's Firebase configuration
+// Konfigurasi Firebase
 const firebaseConfig = {
   apiKey: "AIzaSyAtnRSyWqcLhPR8Z_9USDVGKniJiChx2eQ",
   authDomain: "projectakhir-fa169.firebaseapp.com",
-  databaseURL: "https://projectakhir-fa169-default-rtdb.firebaseio.com", // URL untuk Realtime Database
+  databaseURL: "https://projectakhir-fa169-default-rtdb.firebaseio.com",
   projectId: "projectakhir-fa169",
   storageBucket: "projectakhir-fa169.firebasestorage.app",
   messagingSenderId: "644598690445",
@@ -14,11 +14,37 @@ const firebaseConfig = {
   measurementId: "G-15CTQG4GHB"
 };
 
-// Initialize Firebase
+// Inisialisasi Firebase
 const app = initializeApp(firebaseConfig);
 
 // Inisialisasi Realtime Database
-const db = getDatabase(app); // Realtime Database instance
+const database = getDatabase(app);
 
-// Ekspor db agar bisa digunakan di file lain
-export { db };
+// Fungsi untuk membaca data dari Firebase
+export const readData = async (id) => {
+  try {
+    const dataRef = ref(database, `books/${id}`); // Pastikan path-nya sesuai dengan struktur database Anda
+    const snapshot = await get(dataRef);
+    if (snapshot.exists()) {
+      return snapshot.val();
+    } else {
+      console.log("No data available");
+      return null;
+    }
+  } catch (error) {
+    console.error("Error reading data:", error);
+    throw error;
+  }
+};
+
+// Fungsi untuk memperbarui data di Firebase
+export const updateData = async (id, data) => {
+  try {
+    const dataRef = ref(database, `books/${id}`); // Path ke lokasi data
+    await set(dataRef, data);
+    console.log("Data updated successfully!");
+  } catch (error) {
+    console.error("Error updating data:", error);
+    throw error;
+  }
+};

@@ -31,9 +31,7 @@ const Header = (props) => {
 
         {/* Collapsible Navbar */}
         <div
-          className={`collapse navbar-collapse ${
-            !isCollapsed ? "show" : ""
-          }`}
+          className={`collapse navbar-collapse ${!isCollapsed ? "show" : ""}`}
           id="navbarSupportedContent"
         >
           <ul className="navbar-nav mr-auto">
@@ -60,7 +58,6 @@ const Header = (props) => {
           </ul>
 
           {/* Search Icon */}
-          
         </div>
       </nav>
     </div>
