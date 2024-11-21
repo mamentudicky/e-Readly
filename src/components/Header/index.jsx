@@ -11,7 +11,7 @@ const Header = (props) => {
 
   return (
     <div className="header_section">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-black bg-light">
         {/* Logo */}
         <a className="logo" href="/">
           <img src="/images/e-Readly.PNG" alt="e-Readly Logo" />

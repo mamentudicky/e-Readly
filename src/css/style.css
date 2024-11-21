@@ -262,7 +262,7 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    background: linear-gradient(110deg, #3c0e0e 55%, rgba(60, 90, 90, 0) 55%), url(../images/banner-bg.png);
+    background: linear-gradient(110deg, #310032 55%, rgba(60, 90, 90, 0) 55%), url(../images/banner-bg.png);
     position: relative;
     padding-bottom: 90px;
 }
@@ -477,7 +477,7 @@ button {
 .movies_section {
     width: 100%;
     float: left;
-    background-color: #3c0e0e;
+    background-color: #1e001e; /*for backgroun*/
     height: auto;
     padding-bottom: 90px;
 }
@@ -937,7 +937,7 @@ input.email_text::placeholder {
 .discussioncolor{
     font-size: 14px;
     font-family: 'Titillium Web', sans-serif;
-    background-color: #3c0e0e;
+    background-color: #36003f;
     color:#FEFEFE;
 }
 
@@ -999,7 +999,7 @@ h1{
 
 /* Search Box styles */
 .search-box {
-    border: solid 1px  #3c0e0e;
+    border: solid 1px  #36003f;
     margin-top: 20px;
     padding: 20px; /* Adjusted padding */
     display: flex;
@@ -1081,7 +1081,7 @@ h1{
 .table-row .status, .table-row .subjects, .table-row .replies, .table-row .last-reply{
     padding: 5px;
     margin: 2px;
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
 }
 
 .table-row .status{

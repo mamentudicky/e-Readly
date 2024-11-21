@@ -102,7 +102,7 @@ const Catalog = () => {
       </div>
       </Fade>
 
-      <div className="seebt_1"><a href="#">See More</a></div>
+      <div className="seebt_1"><a href="#">back to top</a></div>
     </div>
   </div>
   {/* movies section end */}
@@ -111,12 +111,7 @@ const Catalog = () => {
     <div className="container">
       <div className="footer_menu">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="movies.html">Movies</a></li>
-          <li><a href="tv.html">TV</a></li>
-          <li><a href="celebs.html">Celebs</a></li>
-          <li><a href="#">Sports</a></li>
-          <li><a href="#">News</a></li>
+          <li><a href="index.html">TIM PATAH</a></li>
         </ul>
       </div>
       <div className="social_icon">

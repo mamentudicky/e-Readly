@@ -5,12 +5,7 @@ const Footer = () => {
     <div className="container">
       <div className="footer_menu">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="movies.html">Movies</a></li>
-          <li><a href="tv.html">TV</a></li>
-          <li><a href="celebs.html">Celebs</a></li>
-          <li><a href="#">Sports</a></li>
-          <li><a href="#">News</a></li>
+          <li><a href="index.html">TIM PATAH</a></li>
         </ul>
       </div>
       <div className="social_icon">
